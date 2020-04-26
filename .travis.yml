@@ -1,11 +1,10 @@
 language: java
-jdk:
-  -openjdk8
-
+jdk: "-openjdk8"
 addons:
   sonarcloud:
     organization: spencerklawans
     token: c217f267aa656f84a0781f52dc276127b776f8e4
-    script:
-      -ant build
-      -sonar-scanner
+    script: "-ant build -sonar-scanner"
+env:
+  global:
+    secure: NaOVSP2AhawsOdAVbDIVYAB43L1QTvzpCQFuyAFU3MURiR3ft/6B+X2Lvo7jU4fL7xp+1qIpHVaNsH/qFKsJdX3/SAxFV/2k2STzUXdI1669EVq1rn4p+pqzQvmm+yiPb17cg7szH3NfodI1TyFzolrwKpeghrEYsFPKxCT30lMGxQJ6QbYGckB8lBtI8MgQVGD72Dc094ySMhvcJgGRUgBrWMRQmM/9+IhZYk9PkBzcAFQmFP1uAgjoo4JtP4rRg4pk6JesRftx1dUBrwnvftHPIRkUd9WcSE+Qf+nWhncVotVRwfSJre+zg+3jnaBXzro/KusbCdFpeJZS3FQBS3b+PKY2OYbfiB01rJmNpmBLdvVq/NTXhQQ8AsuUaTNYfLDjyGeqq+HcCVGZoZTlU2Vyb9F8DlicRehBMk3Wfz3Sm4XiJhTdOS8oFtwk3ZfGNtGevKdRbimWGPoh/DUAC8aJ+FjqrNaej4ha8k5QCz4x23wL0G+SGsftX9s9MgBnwTLGVW0uLfttreEY8VasxpxPi/t0y2SL3ZiXAG5bOdBZ6aQ4xMHbNub+2SSmRlXyaDeE5A/Axnmvvoylm3fvoJ4QcuwN8trNh3POrwv0qc9VGHxp5BBXewq5xGfHdPGIdgCyCp7cp0sIh7jXyan1DKe0XoYretLaWoW1qBQ5FTo=
