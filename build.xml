@@ -54,4 +54,9 @@
             <classpath refid="Calculator.classpath"/>
         </java>
     </target>
+	<target name="test">
+        <java classname="sample.Main" failonerror="true" fork="yes">
+            <classpath refid="Calculator.classpath"/>
+        </java>
+    </target>
 </project>
