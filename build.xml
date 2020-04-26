@@ -16,8 +16,6 @@
         <mkdir dir="out/production/Calculator"/>
         <copy includeemptydirs="false" todir="out/production/Calculator">
             <fileset dir="src">
-                <exclude name="**/*.launch"/>
-                <exclude name="**/*.xtend"/>
                 <exclude name="**/*.java"/>
             </fileset>
         </copy>
@@ -50,11 +48,6 @@
         <antcall target="build"/>
     </target>
     <target name="Main (2)">
-        <java classname="sample.Main" failonerror="true" fork="yes">
-            <classpath refid="Calculator.classpath"/>
-        </java>
-    </target>
-	<target name="test">
         <java classname="sample.Main" failonerror="true" fork="yes">
             <classpath refid="Calculator.classpath"/>
         </java>
