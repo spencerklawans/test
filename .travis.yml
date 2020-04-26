@@ -5,7 +5,7 @@ jdk:
 addons:
   sonarcloud:
     organization: spencerklawans
-    token: 755ce46e1676dadafa31001178fb17e7af7e9321
+    token: TCxiO3COeNWNB8aBwF37qwJvoeLxGBT50zliIPDCrM0H1n9u2urXAmyBf+mTgF1A9SCv7PBgz6H7eCef17bBUS9olYS+ZcS1YPGdTRj3cEp+FR4G+V4gypV07U1q99ABP/ULPA9OZE040mdnyFmM6wZkwQ66dZF1YCpqsp10iCUHf3GNCqkryhOkz6O4gjr6wY4ikVoz6JdOzO46+RebiZB9cTAf3maIYsz6BaQ4X6kzFnBczrUVOh/I/6YKozGyMpnDKXhg4ZJ+QtKVkKi09GUMpNNntDZExF8t7Htbr55KOcFmyA8pS8CmpIJbjMmcObDY6Hef8OIuAcwFVUoHiEgbDWDqd3uze5JNVTcjl76znuiiYjDH82DL3nZADOB1k6pGBzcd4v+kTebdg77hLQK1HYwTQmPLutK0umNRdaftNcBtjEKX47cz2ots0wEYt9Yk2KXBBApy4fZ1MQKHMGxpGoBLwyMr+fnIIE+PjF6zCNJ4vwHotojRSjVUdXnnOty9LI0edwfmfwBkIaDaKir4QIagoqZHGI3BF5RVa5Y9XXueN9QzwE42vY2VG+Bo1ZvsLcGrVY7fFoRfN7A37TmyrPiN+OZecXFwLq3vbGuJ4R1g/YnQqllOEbmv+fXZEmQ3Rg+9+8rPEIKIDzd1NNMfyJqNE0kQHZFGpSrmI2E=
     script:
       -ant build
       -sonar-scanner
